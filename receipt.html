@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>रसीद - अनपुर्णा इंट उद्योग</title>
+    <style>
+        *{
+            background-color: rgb(223, 223, 208);
+            
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .details {
+            margin-bottom: 20px;
+        }
+        .details span {
+            display: inline-block;
+            width: 200px;
+            font-weight: bold;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 4px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>अनपुर्णा इंट उद्योग</h1>
+        <p>केवटी, शेखपुरा</p>
+    </div>
+    
+    <div class="contact-info">
+        <p>संपर्क जानकारी: 8969355825, 7631282611</p>
+    </div>
+    
+    <div class="details">
+        <p><span>बिल नंबर:</span> <input type="text" id="billNumber" placeholder="बिल नंबर डालें"></p>
+        <p><span>ड्राइवर का नाम:</span> <input type="text" id="driverName" placeholder="ड्राइवर का नाम डालें"></p>
+        <p><span>पता:</span> <input type="text" id="address" placeholder="पता डालें"></p>
+        <p><span>वैन नंबर:</span> <input type="text" id="vanNumber" placeholder="वैन नंबर डालें"></p>
+        <p><span>तारीख:</span> <input type="text" id="date" placeholder="तारीख डालें"></p>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>ईंट का प्रकार</th>
+                <th>मात्रा</th>
+                <th>प्रति यूनिट मूल्य (₹)</th>
+                <th>कुल मूल्य (₹)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" id="brickType1" placeholder="ईंट प्रकार 1 डालें"></td>
+                <td><input type="number" id="quantity1" placeholder="मात्रा डालें"></td>
+                <td><input type="number" id="pricePerUnit1" placeholder="मूल्य डालें"></td>
+                <td><input type="number" id="totalPrice1" placeholder="कुल मूल्य"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="brickType2" placeholder="ईंट प्रकार 2 डालें"></td>
+                <td><input type="number" id="quantity2" placeholder="मात्रा डालें"></td>
+                <td><input type="number" id="pricePerUnit2" placeholder="मूल्य डालें"></td>
+                <td><input type="number" id="totalPrice2" placeholder="कुल मूल्य"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="brickType3" placeholder="ईंट प्रकार 3 डालें"></td>
+                <td><input type="number" id="quantity3" placeholder="मात्रा डालें"></td>
+                <td><input type="number" id="pricePerUnit3" placeholder="मूल्य डालें"></td>
+                <td><input type="number" id="totalPrice3" placeholder="कुल मूल्य"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="brickType4" placeholder="ईंट प्रकार 4 डालें"></td>
+                <td><input type="number" id="quantity4" placeholder="मात्रा डालें"></td>
+                <td><input type="number" id="pricePerUnit4" placeholder="मूल्य डालें"></td>
+                <td><input type="number" id="totalPrice4" placeholder="कुल मूल्य"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="brickType5" placeholder="ईंट प्रकार 5 डालें"></td>
+                <td><input type="number" id="quantity5" placeholder="मात्रा डालें"></td>
+                <td><input type="number" id="pricePerUnit5" placeholder="मूल्य डालें"></td>
+                <td><input type="number" id="totalPrice5" placeholder="कुल मूल्य"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="brickType6" placeholder="ईंट प्रकार 6 डालें"></td>
+                <td><input type="number" id="quantity6" placeholder="मात्रा डालें"></td>
+                <td><input type="number" id="pricePerUnit6" placeholder="मूल्य डालें"></td>
+                <td><input type="number" id="totalPrice6" placeholder="कुल मूल्य"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="brickType7" placeholder="ईंट प्रकार 7 डालें"></td>
+                <td><input type="number" id="quantity7" placeholder="मात्रा डालें"></td>
+                <td><input type="number" id="pricePerUnit7" placeholder="मूल्य डालें"></td>
+                <td><input type="number" id="totalPrice7" placeholder="कुल मूल्य"></td>
+            </tr> 
+            <tr>
+                <td><input type="text" id="brickType8" placeholder="ईंट प्रकार 8 डालें"></td>
+                <td><input type="number" id="quantity8" placeholder="मात्रा डालें"></td>
+                <td><input type="number" id="pricePerUnit8" placeholder="मूल्य डालें"></td>
+                <td><input type="number" id="totalPrice8" placeholder="कुल मूल्य"></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="8" style="text-align: right;"><strong>कुल</strong></td>
+                <td><input type="number" id="grandTotal" placeholder="कुल मूल्य" readonly></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"><button ><b>Print</b></button></td>
+                <td style="text-align: right;"><button><b>Save</b></button></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    <div class="footer">
+        <p>आपके व्यवसाय के लिए धन्यवाद!</p>
+    </div>
+</div>
+
+<script>
+    function calculateTotal() {
+        let quantity1 = document.getElementById('quantity1').value || 0;
+        let pricePerUnit1 = document.getElementById('pricePerUnit1').value || 0;
+        document.getElementById('totalPrice1').value = quantity1 * pricePerUnit1;
+
+        let quantity2 = document.getElementById('quantity2').value || 0;
+        let pricePerUnit2 = document.getElementById('pricePerUnit2').value || 0;
+        document.getElementById('totalPrice2').value = quantity2 * pricePerUnit2;
+
+        let quantity3 = document.getElementById('quantity3').value || 0;
+        let pricePerUnit3 = document.getElementById('pricePerUnit3').value || 0;
+        document.getElementById('totalPrice3').value = quantity3 * pricePerUnit3;
+
+        let quantity4 = document.getElementById('quantity4').value || 0;
+        let pricePerUnit4 = document.getElementById('pricePerUnit4').value || 0;
+        document.getElementById('totalPrice4').value = quantity4 * pricePerUnit4;
+
+        let quantity5 = document.getElementById('quantity5').value || 0;
+        let pricePerUnit5 = document.getElementById('pricePerUnit5').value || 0;
+        document.getElementById('totalPrice3').value = quantity5* pricePerUnit5;
+
+        let quantity6 = document.getElementById('quantity6').value || 0;
+        let pricePerUnit6 = document.getElementById('pricePerUnit6').value || 0;
+        document.getElementById('totalPrice6').value = quantity6 * pricePerUnit6;
+
+        let quantity7 = document.getElementById('quantity7').value || 0;
+        let pricePerUnit7 = document.getElementById('pricePerUnit7').value || 0;
+        document.getElementById('totalPrice7').value = quantity7 * pricePerUnit7;
+
+        let quantity8 = document.getElementById('quantity8').value || 0;
+        let pricePerUnit8 = document.getElementById('pricePerUnit8').value || 0;
+        document.getElementById('totalPrice8').value = quantity8* pricePerUnit8;
+
+
+
+        let total1 = document.getElementById('totalPrice1').value || 0;
+        let total2 = document.getElementById('totalPrice2').value || 0;
+        let total3 = document.getElementById('totalPrice3').value || 0;
+        let total4 = document.getElementById('totalPrice4').value || 0;
+        let total5 = document.getElementById('totalPrice5').value || 0;
+        let total6 = document.getElementById('totalPrice6').value || 0;
+        let total7 = document.getElementById('totalPrice7').value || 0;
+        let total8 = document.getElementById('totalPrice8').value || 0;
+        document.getElementById('grandTotal').value = parseFloat(total1) + parseFloat(total2) + parseFloat(total3) +parseFloat(total4)+ parseFloat(total5) + parseFloat(total6)+ parseFloat(total7)+ parseFloat(total8);
+    }
+
+    document.querySelectorAll('input[type="number"]').forEach(input => {
+        input.addEventListener('input', calculateTotal);
+    });
+</script>
+...
+</body>
+</html>
+
