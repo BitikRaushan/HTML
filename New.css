@@ -1,0 +1,67 @@
+body {
+    margin: 2;
+    padding:1;
+    font-family: Arial, sans-serif;
+    background-image: url(mst_1.jpg);
+}
+
+.slider-container {
+    position: relative;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 10px ;
+    border: 5px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: url('manufacturer-background.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    min-width: 80%;
+    transition: 0.5s;
+    position: relative;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
