@@ -120,14 +120,6 @@ body {
 .content a:hover {
     background-color: #555;
 }
-
-/* Video Styles */
-@media only screen and (min-width: 768px){
-    #videos iframe {
-        width: 30%;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
-}   
 /* @media only screen and (max-width: 768px){
         #videos iframe {
             width: 30%;
@@ -154,7 +146,7 @@ body {
     /* /* display: flex;
     justify-content: space-around; */
     
-    background-image: url(best.jpg);
+/*     background-image: url(best.jpg); */
      
 }
 
