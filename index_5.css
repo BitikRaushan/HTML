@@ -122,7 +122,34 @@ body {
 }
 
 /* Video Styles */
-#videos {
+@media only screen and (min-width: 768px){
+    #videos iframe {
+        width: 30%;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+}   
+@media only screen and (max-width: 768px){
+        #videos iframe {
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        photo_video{
+            display:flex;
+            flex-direction: column;
+            justify-content: centre;
+            align-self:centre ;
+    
+    
+
+        }
+       
+
+    
+
+
+    
+}
+/* #videos {
     
     /* /* display: flex;
     justify-content: space-around; */
@@ -130,14 +157,11 @@ body {
     background-image: url(best.jpg);
      */
 }
-.me{
-    background-image:url(Apple.jpg);
-}
 
 #videos iframe {
     width: 30%;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
+} */
 
 /* Product Styles */
 #foot {
