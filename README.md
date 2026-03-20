@@ -61,7 +61,7 @@ AEU-Website/
 
 ## ⚙️ How to Run Locally
 
-1. Clone the repository:git clone https://github.com/BITIKRAUSHAN/aeu-website.git
+1. Clone the repository:git clone https://github.com/BitikRaushan/HTML.git
   
 2. Open the project folder:
 3. 
